@@ -59,11 +59,13 @@ Main Components
 .cd-pricing-container {
   width: 90%;
   max-width: 1170px;
-  margin: 4em auto;
+  /*margin: 4em auto;*/
+  margin: 1em auto;
 }
 @media only screen and (min-width: 768px) {
   .cd-pricing-container {
-    margin: 6em auto;
+   /* margin: 6em auto;*/
+   margin: 1em auto;
   }
   .cd-pricing-container.cd-full-width {
     width: 100%;
@@ -126,6 +128,7 @@ Main Components
 
 .cd-pricing-list {
   margin: 2em 0 0;
+  /*margin: 2em 0 0;*/
 }
 .cd-pricing-list > li {
   position: relative;
@@ -133,7 +136,8 @@ Main Components
 }
 @media only screen and (min-width: 768px) {
   .cd-pricing-list {
-    margin: 3em 0 0;
+    margin: 1em 0 0;
+    /*margin: 3em 0 0;*/
   }
   .cd-pricing-list:after {
     content: "";
